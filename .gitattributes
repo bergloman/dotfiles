@@ -1,0 +1,10 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# for C++ code files, force Linux line endings, even on Windows
+*.h text eol=lf
+*.hpp text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+
+*.sh 
